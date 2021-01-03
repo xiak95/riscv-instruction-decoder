@@ -347,6 +347,15 @@ def decode_instruction(instruction):
         function7 = instruction[25:][::-1]
         function6 = instruction[26:][::-1]
         function12 = instruction[20:][::-1]
+
+        print("opcode is " +opcode )
+        print("function2 is " +function2 )
+        print("function3 is " +function3 )
+        print("function5 is " +function5 )
+        print("function5_amo is " +function5_amo )
+        print("function7 is " +function7 )
+        print("function6 is " +function6 )
+        print("function12 is " +function12 )
     except KeyError:
         return "ERROR"
 
